@@ -1,5 +1,11 @@
+figlet
+fzf
 ncdu
+neovim
+python-neovim
+python2-neovim
 stow
+tmux
 tree
 zplug
 zsh

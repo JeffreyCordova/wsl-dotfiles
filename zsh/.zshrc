@@ -36,6 +36,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 
 #---[vi mode]-------------------------------------------------------------------
 bindkey -v
+
 bindkey '^P' up-history
 bindkey '^N' down-history
 
@@ -59,11 +60,11 @@ alias grep="grep --color=auto"
 alias path='printf "${PATH//:/\\n}\n"'
 
 #---[system]
-#alias reflector="sudo reflector --verbose \
-#                                --protocol https \
-#                                --latest 200 \
-#                                --sort rate \
-#                                --save /etc/pacman.d/mirrorlist"
+alias reflector="sudo reflector --verbose \
+                                --protocol https \
+                                --latest 200 \
+                                --sort rate \
+                                --save /etc/pacman.d/mirrorlist"
 #alias pkg-list="comm -23 <(pacaur -Qqt | sort) \
 #                         <(pacaur -Sqg base base-devel | sort) \
 #                         > pkgs.lst"
