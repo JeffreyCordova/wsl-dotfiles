@@ -1,10 +1,16 @@
+atool
 figlet
 fzf
 ncdu
 neovim
+nerd-fonts-complete
+otf-hermit
+otf-overpass
 python-neovim
 python2-neovim
+ranger
 stow
+termite
 tmux
 tree
 zplug
