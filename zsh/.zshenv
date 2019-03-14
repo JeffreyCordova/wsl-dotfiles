@@ -41,6 +41,9 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS
 
 unsetopt BG_NICE
 
+#---[docker]--------------------------------------------------------------------
+export DOCKER_HOST=tcp://localhost:2375
+
 #---[network drives]------------------------------------------------------------
 #sudo mount -t drvfs S: /mnt/s
 #sudo mount -t drvfs U: /mnt/u

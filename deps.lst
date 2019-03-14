@@ -1,4 +1,7 @@
 atool
+docker
+docker-compose
+docker-diff
 figlet
 fzf
 ncdu
